@@ -1,0 +1,25 @@
+.headertop{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    color: #BCBCBC;
+    margin-top: 15px;
+    margin-left: 3vw;
+    margin-bottom: 10px;
+    height: 5vh;
+    
+}
+.headertop > .accountowner{
+    color:#BCBCBC;
+    font-weight: bolder;
+    font-size:20px;
+    
+}
+.headertop > .notification{
+    color:#C6C6C6;
+    margin-right:30px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 7px;
+    
+}

@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #BCBCBC;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 5vh;
+    
+}
+.header > .accountowner{
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    color:#BCBCBC;
+    font-size:15px;
+    
+}
+.btn-order{
+    padding:7px;
+    background-color: #3D3D3D;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: auto;
+    margin-left: 10px;
+}
+.header > .notification{
+    color:#C6C6C6;
+    margin-right:30px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 7px;
+    
+}

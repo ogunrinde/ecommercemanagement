@@ -1,0 +1,115 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+}
+.sidebar{
+    width:15vw;
+}
+.main{
+    padding: 10px;
+    width: 85vw;
+}
+.maincontentdash{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 5vw;
+    padding-bottom: 20px;
+    height: 80vh;
+}
+.title{
+    display: flex;
+}
+.counter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.counter > div{
+    flex: 1;
+    display: flex;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.items{
+    display: flex;
+    height: 12vh;
+}
+.more { 
+    display:flex;
+    width: 100%;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:30%;
+    color: #fff;
+    font-size: 2.5vw;
+    text-align: center;
+}
+.detail{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:30%;
+    color: #686868;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.sales{
+    
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.stat{
+    display: flex;
+    height: 30vh;
+    width:100%
+}
+.stat > div {
+    width:100%;
+    padding:7px;
+    height: 40vh;
+}
+.productrow{
+    display: flex;
+    padding: 10px;
+}
+.iconimg{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.icon{
+    width:60px;
+    height: 60px;
+    background-color: #118DE6;
+    opacity: 0.5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.image{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50vh;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+.side {
+    width: 15vw;
+    height:100vh;
+    background-color: #EC5198;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.list{
+    margin-top: auto;
+}
+
+.lastlist{
+    padding: 7px 25px;
+    width:8vw;
+    text-align: left;
+    color: #EC5198;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.lastlist a{
+    color:#EC5198;
+    text-decoration: none;
+}
+.first{
+    background-color: #fff;
+    border-radius:2px;
+    cursor: pointer;
+}
+.others{
+    color: #fff;
+    cursor: pointer;
+}
+.others a{
+    color: #fff;
+}
+.logout{
+    margin-top: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20%;
+    background-color: #B92368;
+    border-radius:2px;
+}

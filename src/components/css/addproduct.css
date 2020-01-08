@@ -1,0 +1,87 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+.main{
+    padding: 10px;
+    width: 85vw;
+}
+.submainprod{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.btn-productbtn{
+    padding:7px;
+    background-color: #118DE6;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: auto;
+}
+.submain > div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.maincontent{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 20px;
+    height: 70vh;
+}
+.sublist{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3vh;
+}
+.sublist > div{
+   width: 48%;
+   margin-right: 10px;
+}
+.prodtitle{
+    display: flex;
+    margin-bottom: 10px;
+    height: 30vh;
+}
+.prodtitle > div {
+    display: flex;
+    flex-direction: column;
+}
+.column1{
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+}
+.column2{
+    width: 40%;
+    padding: 15px;
+}
+.others{
+    display: flex;
+    
+}
+.desc{
+    width:60%;
+    padding: 15px;
+    text-align: left;
+}
+.cate{
+    width:40%;
+    padding: 15px;
+
+}
+
+  
